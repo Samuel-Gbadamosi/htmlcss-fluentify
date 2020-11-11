@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  /* foonts */ robot
+
+
+}
+ul{
+  list-style: none;
+}
+
+
+.container{
+  width: 80%;
+  /* height: 100%; */
+  /* background-color: white; */
+  margin: auto;
+
+}
+.float-left{
+  float: left;
+}
+
+.float-right{
+  float: right;
+}
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+.btn{
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 5px;
+  color:white;
+  padding: 5px 10px;
+}
+.btn-green{
+  background-color: green;
+}
+
+.btn-large{
+  padding: 20px;
+}
+.btn-blue{
+  background-color: blue;
+  border: 1px solid white;
+}
+
+header{
+  background-color: blue;
+  background-image: url('../img 2/background-header.png');
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position:110% 110%;
+  color: white;
+
+}
+
+
+.header-nav{
+  height: 80px;
+
+  line-height: 80px;
+}
+
+.header-nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  color:white;
+}
+
+.header-logo{
+  width: 15%;
+
+
+
+}
+
+
+.header-nav li {
+  display: inline-block;
+  padding: 0 10px;
+}
+/* .header-nav-right{
+
+  height: 100%;
+
+} */
+
+.header-logo img {
+  margin-top: 15px;
+}
+
+.jumbotron{
+  height: 470px;
+  /* background-color: pink; */
+  position: relative;
+}
+.jumbotron-testo{
+  position: absolute;
+  left: 0;
+  top:50%;
+  transform: translateY(-50%);
+  width: 50%;
+}
+.jumbotron-testo h1 {
+  margin-bottom: 40px;
+  font-size: 44px;
+
+}
+
+main{
+
+height: 700px;
+  background-color: lightgrey;
+}
+.language{
+  /* height: 120px; */
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 20px;
+  background-color: lightgrey;;
+}
+
+section .container p{
+  line-height: 30px;
+}
+
+
+.piano{
+  height: 350px;
+  background-color: lightblue;
+}
